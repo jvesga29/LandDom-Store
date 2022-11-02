@@ -1,0 +1,48 @@
+return (
+<div className="container">
+	return (item.map((producto, index) => {
+					
+					<div className="row">
+						<div class=" col-lg-4 mb-4">
+							<div class="card">
+								<div class="card-body">
+									<img></img>
+									<div className="card-body">
+										<h2>{producto.nombre}</h2>
+										<h1>Valor: ${producto.precio}</h1>
+										<h6>Disponible:{producto.stock} unidades</h6>
+										<button onClick={"/"}>Ver detalles</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				);
+			});
+	</div>
+)
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////// FUNCIONALLLL /////////////////////////////////////////////////////
+return item.map((producto, index) => {
+        return (
+            <div className="container">
+                <div className="row">
+                    <div class=" col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img></img>
+                                <div className="card-body">
+                                    <h2>{producto.nombre}</h2>
+                                    <h1>Valor: ${producto.precio}</h1>
+                                    <h6>Disponible: {producto.stock} unidades</h6>
+                                    <button onClick={"/"}>Ver detalles</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    });
+/////////////////////////////////////////////////////////////////////////////////////////////

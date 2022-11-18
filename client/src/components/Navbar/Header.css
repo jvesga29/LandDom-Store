@@ -1,0 +1,132 @@
+.header__container {
+    width: 100%;
+    background-color: rgb(148, 210, 25);
+    height: 65px;
+}
+.header {
+    max-width: 1200px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    position: relative;
+    bottom: 28px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header__img-container img {
+    width: 150px;
+    margin-right: 25px;
+}
+.header__nav {
+    position: absolute;
+    right: 0;
+    top: -1000px;
+    line-height: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    transition: all .5s;
+    background-color: #000;
+    z-index: 2;
+    height: 20vh;
+    width: 100%;
+    text-align: end;
+}
+.header__nav-list {
+    list-style: none;
+    background-color: #fff;
+}.header__nav-list li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header__nav-list li:nth-child(1) {
+    background-color: rgb(247, 247, 247);
+}
+.header__nav-list li:nth-child(1) a {
+    color: rgb(101, 147, 250);
+}
+.header__nav-list li a {
+    margin-right: 30px;
+}
+.header__search {
+    background-color: #fff;
+    padding-right: 30px;
+}
+.header__search input {
+    border-radius: 5px;
+    border: 1px #000 solid;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.header__actions {
+    display: flex;
+    position: relative;
+    bottom: -8px;
+}
+.fa-solid {
+    font-size: 1.6rem;
+    margin-right: 20px;
+    color: #000;
+    cursor: pointer;
+}
+/* .fa-magnifying-glass {
+    font-size: 1.4rem;
+    position: relative;
+    top: 5px;
+    left: 10px;
+} */
+
+.active {
+    top: 293px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__nav {
+        position: relative;
+        right: 0;
+        top: 0;
+        height: auto;
+        flex-direction: row;
+        background-color: transparent;
+        justify-content: space-between;
+    }
+    .header__search {
+        background-color: transparent;
+    }
+    .header__nav-list {
+        background-color: transparent;
+    }
+    .header__actions {
+        bottom: 2px;
+        right: 20px;
+    }
+    .header__nav-list {
+        display: flex;
+    }.header__nav-list li a {
+        font-size: 1.3rem;
+        color: #000;
+        margin-right: 25px;
+    }
+    .header__img-container img {
+        position: relative;
+        top: 5px;
+    }
+    .header__search input {
+        height: 32px;
+    }
+    .header__nav-list li:nth-child(1) {
+        background-color: transparent;
+    }
+    .header__nav-list li:nth-child(1) a {
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header__actions {
+        bottom: 2px;
+        right: -10px;
+    }
+}

@@ -1,0 +1,10 @@
+11182022	00:37:30	044b4bbb-d111-4241-9dae-a20c67ba5685	TypeError: User.findOne is not a function	POST	/auth	undefined
+11182022	00:37:44	27db5fcb-ab41-4859-9202-fea962246dd3	TypeError: User.findOne is not a function	POST	/auth	undefined
+11182022	00:37:45	23626be8-4e29-419a-a13c-26cce26a2e6a	TypeError: User.findOne is not a function	POST	/auth	undefined
+11182022	00:38:46	6f120512-3f8e-4d71-a2cd-a7fed77943de	TypeError: User.findOne is not a function	POST	/auth	undefined
+11182022	00:38:55	181edf91-af63-4133-9dc0-7498e00c69b9	TypeError: User.findOne is not a function	POST	/auth	undefined
+11182022	00:41:22	8348aa7c-1fd3-4c10-887c-ea4f81520e53	TypeError: User.findOne is not a function	POST	/auth	undefined
+11182022	13:16:29	fcbe3433-f24f-4331-a9c4-8e62f7432962	Error: Not allowed by CORS	GET	/auth/refresh	http://localhost:3000
+11182022	13:16:51	6e63b8ed-1444-4df8-9a42-301e4e1fa317	Error: Not allowed by CORS	GET	/auth/refresh	http://localhost:3000
+11182022	13:16:56	283719da-9cf0-48c9-bd11-6d09ec7ae237	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3000
+11182022	13:17:10	a9913b8b-c565-48d6-8c35-be82a1b6bc42	Error: Not allowed by CORS	OPTIONS	/auth	http://localhost:3000

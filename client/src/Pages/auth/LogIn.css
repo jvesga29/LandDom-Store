@@ -1,0 +1,21 @@
+.public {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+.form__submit-button {
+    width: 100%;
+    background-color: rgb(148, 210, 25);
+    margin-top: 20px;
+}
+/* .login__btn:hover {
+    background-color: rgb(148, 210, 25);
+} */
